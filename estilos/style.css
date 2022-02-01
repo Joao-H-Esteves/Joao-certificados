@@ -36,12 +36,28 @@ main{
 }
 img.lado{
     float: right;
+    width: auto;
+    height: 80px;    
+    padding: 15px;
+    
 }
+
+.foto_perfil{ 
+    padding: 20px;
+    float: right;
+    border-radius: 40px;
+    box-shadow: 3px 3px 50px rgba(134, 10, 10, 0.973);
+
+}
+ 
 .container-0{
     background-image: url("imagens\wallpaper 1.jpg");
-    display: inline-block;
-    margin-left: 20px;
-    line-height: 30px; 
+    text-align:left;
+    flex-direction: column;
+    justify-content:flex-start;
+    padding: 10px;
+    padding-bottom: 40px;
+    margin: 40px;
     
 }
 
@@ -69,15 +85,7 @@ img.lado{
     margin-bottom: 40px;
   }
 
-.foto_perfil{
-    display: inline-block;
-    margin-right: 30px;
-    padding: 20px;
-    
-    }
- .perfil{
-     border-radius: 20px;
- }   
+
 li{
     padding-bottom: 40px;
 }
@@ -103,6 +111,7 @@ a{
     text-decoration: none;
     font-weight: bold;
     color: rgb(112, 0, 0);
+    text-shadow: 1px 1px 1px rgba(109, 107, 107, 0.932);
 }
 a.perfil{
     
