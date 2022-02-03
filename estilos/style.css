@@ -2,14 +2,15 @@
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16 px;
     
+    
 }
 
 body{     
     background-color: rgb(24, 22, 22);      
     width: auto;
     padding: auto;    
-    margin: 100px;
-    margin-top: 100px;    
+    margin: 10%;  
+    display: flex;     
     }
 
 header{
@@ -18,16 +19,19 @@ header{
     padding: 5px;
     border-radius: 10px;
     text-align: center;    
+    
 }
 
 main{
     background-color: rgba(2, 2, 2, 0.781);
-    width: 500 px;
+    width: 80%;
     margin: auto;
     box-shadow: 3px 3px 50px rgba(134, 10, 10, 0.678);
-    padding: 80px;
+    padding: 10%;
+    
 }
 img.lado{
+    display: flex; 
     float: right;
     width: auto;
     height: 80px;    
@@ -41,37 +45,24 @@ img.lado{
     box-shadow: 10px 10px 50px rgba(134, 10, 10, 0.973);
 }
  
-.container-0{
+article{
     text-align:left;
     flex-direction: column;
     justify-content:flex-start;
-    padding: 10px;
-    padding-bottom: 40px;
-    margin: 40px;    
+    padding: 5%;
+    margin: 10px;
+}
+.container-0{       
+    margin: auto;    
 }
 
 .container-1{
     background-color: rgba(134, 10, 10, 0.11);
     box-shadow: 3px 3px 50px rgba(134, 10, 10, 0.973);
     border-radius: 10px;
-    text-align:left;
-    flex-direction: column;
-    justify-content:flex-start;
-    padding: 10px;
-    padding-bottom: 40px;
-    margin: 10px;
-    margin-bottom: 40px;
 }
 
-.conteiner-2{    
-    text-align:left;
-    flex-direction: column;
-    justify-content:flex-start;
-    padding: 10px;
-    padding-bottom: 40px;
-    margin: 10px;
-    margin-bottom: 40px;
-  }
+
 
 footer{
     text-align:center;
@@ -79,12 +70,8 @@ footer{
     padding: 10px;
     box-shadow: 3px 3px 50px rgba(134, 10, 10, 0.973);
     border-radius: 10px;
-    width: 400px;
+    width: 80%;
     margin: auto;
-}
-
-li{
-    padding-bottom: 40px;
 }
 
 h1{
