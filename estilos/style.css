@@ -1,16 +1,20 @@
 *{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 16 px;
-    
-    
+    margin: 0pt;
+    padding: 0pt;
+    font-family: Arial, Helvetica, sans-serif;          
+}
+html body{
+    display: block;
+    font-size: 62,5%;
 }
 
 body{     
-    background-color: rgb(24, 22, 22);      
+    background-color: rgb(44, 36, 36);      
     width: auto;
     padding: auto;    
     margin: 10%;  
-    display: flex;     
+    
+         
     }
 
 header{
@@ -66,7 +70,7 @@ article{
 
 footer{
     text-align:center;
-    font-size: 1.5em;
+    font-size: 1rem;
     padding: 10px;
     box-shadow: 3px 3px 50px rgba(134, 10, 10, 0.973);
     border-radius: 10px;
@@ -75,13 +79,13 @@ footer{
 }
 
 h1{
-    font-size: 35px;
+    font-size: 2rem;
     color: rgba(240, 240, 240, 0.733);
     text-shadow: 2px 2px 2px rgba(109, 107, 107, 0.932);
 }
 
 h2{
-    font-size: 1.5em;
+    font-size: 1.5rem;
     color: rgba(240, 240, 240, 0.863);
     text-shadow: 2px 2px 2px rgba(109, 107, 107, 0.932);
 }
@@ -89,6 +93,7 @@ h2{
 p{
     color: rgba(240, 240, 240, 0.692);
     text-shadow: none;
+    font-size: 1rem;
     letter-spacing: 1px;
     padding-left: 20px;
 }
@@ -111,7 +116,7 @@ a:hover {
     color:#ff0000;
   }
 
-/** Barra de rolagem*/
+/* Barra de rolagem*/
 ::-webkit-scrollbar{
       width: 20px;
   }
