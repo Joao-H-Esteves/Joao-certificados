@@ -1,6 +1,6 @@
 *{
-    margin: 0pt;
-    padding: 0pt;
+    margin: 0;
+    padding: 0;
     font-family: Arial, Helvetica, sans-serif; 
     color: rgba(240, 240, 240, 0.733);         
 }
@@ -135,4 +135,147 @@ a:hover {
 ::-webkit-scrollbar-thumb{
     background: #000000;
     border-radius: 10px;
+}
+
+/* RESPONSIVIDADE MEDIA QUERIES */
+
+@media all and (min-width: 380px) and (max-width: 720px){
+    *{
+       color: rgba(2, 2, 2, 0.781);
+    }
+    .foto_perfil, header, .container-1, footer.rodape{         
+        box-shadow: 10px 10px 30px rgba(10, 134, 20, 0.973);
+    }
+    body{     
+        background-color: rgba(189, 184, 184, 0.616);            
+        margin: 0;         
+        }
+    main{
+        background-color: rgba(10, 134, 37, 0.11);
+        padding: 5%;
+        width: auto;
+        margin: 0;
+        box-shadow: none;
+    }
+    .container-1, footer.rodape, header{
+        background-color: rgba(122, 209, 101, 0.555);
+    }    
+    header,article{        
+        padding: 2%;
+        margin: 3%;
+        border-radius: 8px;  
+    }
+     
+    /* ##### FONTES ##### */
+    h1{
+        font-size: 1.5rem;    
+        text-shadow: 2px 2px 2px rgba(10, 134, 37, 0.11);
+    }
+    h2{
+        font-size: 1.1rem;
+        text-shadow: 2px 2px 2px rgba(10, 134, 37, 0.11);;
+    }
+
+    p{
+        font-weight: 600;    
+        padding: 5px 10px;
+    }
+
+    a{
+        font-weight: bold;
+        color: #f3f3f3;
+        text-shadow: 1px 2px 4px rgba(10, 134, 20, 0.973);
+    }
+
+    a:hover {
+        color:#32f032e0;
+        text-shadow: 2px 2px 2px #0707079c;
+    }
+
+    /*##### Barra de rolagem #####*/
+    ::-webkit-scrollbar,::-webkit-scrollbar-track,::-webkit-scrollbar-thumb{
+        display: none;
+    }
+
+
+}
+@media all and  (max-width: 379px){
+    *{
+       color: #F3F3F3;
+    }
+    .foto_perfil, header, .container-1, footer.rodape{         
+        box-shadow: -7px -7px 25px #C84C09;
+    }
+    body{     
+        background-color: #7b9e89cb;            
+        margin: 0;         
+        }
+    main{
+        background-color: rgba(10, 134, 37, 0.11);
+        padding: 5%;
+        width: auto;
+        margin: 0;
+        box-shadow: none;
+    }
+    .container-1, footer.rodape, header{
+        background-color: #fcba04c2;
+    }    
+    header,article{        
+        padding: 2%;
+        margin: 3%;
+        border-radius: 8px;  
+    }
+     
+    /* ##### FONTES ##### */
+    h1{
+        color: #250001;
+        font-size: 1.2rem;    
+        text-shadow: -2px -2px 2px #C84C09;
+    }
+    h2{
+        font-size: 1rem;
+        text-shadow: -2px -2px 2px #C84C09;
+    }
+
+    p{
+        font-size: 0.9rem;
+        font-weight: 600;    
+        padding: 5px 10px;
+    }
+
+    a{
+        letter-spacing: none;
+        font-weight: bold;
+        color: #250001;
+        text-shadow: -1px -2px 4px #C84C09;
+    }
+
+    a:hover {
+        color:#C84C09;
+        text-shadow: -2px -2px 2px #250001;
+    }
+    /*##### IMAGENS #####*/
+    
+    .foto_perfil{ 
+        height: 8rem; 
+        margin: 0.6rem ;
+        float: left;
+        border-radius: 20px;
+    }
+    img.lado , .ladoB {
+         float: left;
+        height: 3.5rem;    
+        padding: 15px;    
+    }
+    .ladoB{
+        height: 1.8rem;
+        /* imagem devOPs */
+    }
+
+    /*##### Barra de rolagem #####*/
+    ::-webkit-scrollbar,::-webkit-scrollbar-track,::-webkit-scrollbar-thumb{
+        display: none;
+    }
+
+
 }
