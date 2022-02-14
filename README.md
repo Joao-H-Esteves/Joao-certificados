@@ -8,7 +8,14 @@
  * Certificação
  * Conclusão
  
+ ### Site totalmente responsivo usando @Media Queries no Css3
  
+ <div id="video1">
+     <video id="media" controls="controls">
+      <source src="imagens/Media_Queries.mp4" type="video/mp4">
+      Desculpe, não foi possivel carregar o video
+     </video>
+   </div>
  
- Site feito totalmente versionado no git e com branchs no github.
+( Site feito totalmente versionado no git e com branchs no github.)
  
