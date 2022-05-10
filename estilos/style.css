@@ -20,12 +20,12 @@ body{
     }
 
 header, main, .foto_perfil, .container-1, .rodape{
-    box-shadow: 3px 3px 50px rgba(134, 10, 10, 0.973);
+    box-shadow:  0.3rem  0.3rem 5rem rgba(134, 10, 10, 0.973);
 }
 header{
     background-color: rgba(0, 0, 0, 0.11);    
     padding: 5%;
-    border-radius: 10px;
+    border-radius: 1rem;
     text-align: center;    
     
 }
@@ -42,7 +42,7 @@ img.lado , .ladoB{
     float: right;
     width: auto;
     height: 5rem;    
-    padding: 15px;    
+    padding: 1.5rem;    
 }
 .ladoB{
     height: 3rem;
@@ -50,9 +50,9 @@ img.lado , .ladoB{
 }
 
 .foto_perfil{ 
-    margin-top: 20px;
+    margin-top: 2rem;
     float: right;
-    border-radius: 20px;   
+    border-radius: 2rem;   
 }
  
 article{
@@ -60,7 +60,7 @@ article{
     flex-direction: column;
     justify-content:flex-start;
     padding: 5%;
-    margin: 10px;
+    margin: 1rem;
 }
 .container-0{       
     margin: auto;     
@@ -68,20 +68,20 @@ article{
 
 .container-1{
     background-color: rgba(134, 10, 10, 0.11);    
-    border-radius: 10px;
+    border-radius: 1rem;
 }
 
 footer.rodape{
     text-align:center;
     font-size: 1rem;
     padding: 1rem ;
-    border-radius: 10px;
+    border-radius: 1rem;
     width: 90%;
     height: auto;
     margin: auto;
 }
 footer.fim{
-    padding-top: 20px;
+    padding-top: 2rem;
     text-align:center;
     font-size: 0.8rem;    
 }
@@ -90,20 +90,20 @@ footer.fim{
 
 h1{
     font-size: 2rem;    
-    text-shadow: 2px 2px 2px rgba(109, 107, 107, 0.932);
+    text-shadow:0.2rem 0.2rem 0.2rem rgba(109, 107, 107, 0.932);
 }
 
 h2{
     font-size: 1.5rem;
-    text-shadow: 2px 2px 2px rgba(109, 107, 107, 0.932);
+    text-shadow: 0.2rem 0.2rem 0.2rem rgba(109, 107, 107, 0.932);
 }
 
 p{
     text-shadow: none;
     font-size: 1rem;
-    letter-spacing: 1px;
+    letter-spacing: 0.1rem;
     line-height: 1.3rem;
-    padding: 10px 20px;
+    padding: 1rem 2rem;
 }
 .container-0 p{       
     line-height: 2rem;   
@@ -112,8 +112,8 @@ p{
 a{
     text-decoration: none;
     font-weight: bold;
-    color: rgb(112, 0, 0);
-    text-shadow: 1px 1px 1px rgba(109, 107, 107, 0.932);
+    color: rgb(182, 5, 5);
+    text-shadow: 0.1rem 0.1rem 0.7rem rgb(255, 255, 255);
     
 }
 footer.rodape a{
@@ -121,37 +121,37 @@ footer.rodape a{
 }
 
 a.perfil{    
-    padding-right: 30px;
+    padding-right: 3rem;
 }
 
 a:hover {
     text-decoration: none;
-    transform: scale(1.5);
+    transform: scale(1.7);
     transition: 0.5s;
     color:#ff0000;
   }
 
 /*##### Barra de rolagem #####*/
 ::-webkit-scrollbar{
-      width: 20px;
+      width: 2rem;
   }
 ::-webkit-scrollbar-track{
     background: rgba(134, 10, 10, 0.973);
-    border-radius: 10px;
+    border-radius: 1rem;
 }
 ::-webkit-scrollbar-thumb{
     background: #000000;
-    border-radius: 10px;
+    border-radius: 1rem;
 }
 
 /* RESPONSIVIDADE MEDIA QUERIES */
 
-@media all and (min-width: 380px) and (max-width: 720px){
+@media all and (min-width: 38rem) and (max-width: 72rem){
     *{
        color: #000F08;
     }
     .foto_perfil, header, .container-1, footer.rodape{         
-        box-shadow: 10px 10px 20px #50B97E;
+        box-shadow: 1rem 1rem 2rem #50B97E;
     }
     body{     
         background-color: #D0DCD5;            
@@ -170,34 +170,34 @@ a:hover {
     header,article{        
         padding: 2%;
         margin: 3%;
-        border-radius: 8px;  
+        border-radius: 0.8rem;  
     }
      
     /* ##### FONTES ##### */
     h1{
         font-size: 1.5rem;    
-        text-shadow: 2px 2px 2px rgba(231, 231, 231, 0.973);
+        text-shadow: 0.2rem 0.2rem 0.2rem rgba(231, 231, 231, 0.973);
     }
     h2{
         font-size: 1.1rem;
-        text-shadow: 2px 2px 2px rgba(231, 231, 231, 0.973);
+        text-shadow: 0.2rem 0.2rem 0.2rem rgba(231, 231, 231, 0.973);
     }
 
     p{
         font-size: 0.9rem;
         font-weight: 550;    
-        padding: 5px 10px;
+        padding: 0.5rem 1rem;
     }
 
     a{
         font-weight: bold;
         color: #4E4187;
-        text-shadow: 1px 2px 4px rgba(231, 231, 231, 0.973);
+        text-shadow: 0.1rem 0.2rem 0.4rem rgba(231, 231, 231, 0.973);
     }
 
     a:hover {
         color:#32f032e0;
-        text-shadow: 5px 5px 5px #4E4187;
+        text-shadow: 0.5rem 0.5rem 0.5rem #4E4187;
     }
 
     /*##### Barra de rolagem #####*/
@@ -207,12 +207,12 @@ a:hover {
 
 
 }
-@media all and  (max-width: 379px){
+@media all and  (max-width: 37rem){
     *{
        color: #F3F3F3;
     }
     .foto_perfil, header, .container-1, footer.rodape{         
-        box-shadow: -7px -7px 25px #C84C09;
+        box-shadow: -0.7rem -0.7rem 2.5rem #C84C09;
     }
     body{     
         background-color: #7b9e89cb;            
@@ -231,32 +231,32 @@ a:hover {
     header,article{        
         padding: 2%;
         margin: 3%;
-        border-radius: 8px;  
+        border-radius: 0.8rem;  
     }
      
     /* ##### FONTES ##### */
     h1{
         color: #250001;
         font-size: 1.2rem;    
-        text-shadow: -2px -2px 2px #C84C09;
+        text-shadow: -0.2rem -0.2rem 0.2rem #C84C09;
     }
     h2{
         font-size: 1rem;
-        text-shadow: -2px -2px 2px #C84C09;
+        text-shadow: -0.2rem -0.2rem 0.2rem #C84C09;
     }
 
     p{
         line-height: 1rem;
         font-size: 0.9rem;
         font-weight: 600;    
-        padding: 5px 10px;
+        padding: 0.5rem 1rem;
     }
 
     a{
         letter-spacing: none;
         font-weight: bold;
         color: #250001;
-        text-shadow: -1px -2px 4px #C84C09;
+        text-shadow: -0.1rem -0.2rem 0.4rem #C84C09;
     }
     footer.rodape a{
         padding: 2rem 0.5rem;
@@ -265,7 +265,7 @@ a:hover {
 
     a:hover {
         color:#C84C09;
-        text-shadow: -2px -2px 2px #250001;
+        text-shadow: -0.2rem -0.2rem 0.2rem #250001;
     }
     /*##### IMAGENS #####*/
     
@@ -274,12 +274,12 @@ a:hover {
         height: 8rem; 
         margin: 0.6rem ;
         float: none;
-        border-radius: 20px;
+        border-radius: 2rem;
     }
     img.lado , .ladoB {
          float: left;
         height: 3.5rem;    
-        padding: 15px;    
+        padding: 1.5rem;    
     }
     .ladoB{
         height: 1.8rem;
