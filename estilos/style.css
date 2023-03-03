@@ -50,6 +50,8 @@ main{
     padding: 10%;
     
 }
+
+/* POSIÇÃO DAS IMAGENS*/
 img.lado , .ladoB{
     display: flex; 
     float: right;
@@ -59,12 +61,14 @@ img.lado , .ladoB{
 }
 .ladoB{
     height: 3rem;
-    /* imagem devOPs */
+    /* imagem devOPs e Oracle */
 }
-#sap{
+#sap, #sap_b_o{
     height: 8rem;
     padding: 0.5rem;
 }
+
+
 
 .foto_perfil{ 
     margin-top: 2rem;
@@ -160,6 +164,7 @@ a:hover {
     background: var(--black_strong);
     border-radius: 1rem;
 }
+
 
 /* RESPONSIVIDADE MEDIA QUERIES */
 
